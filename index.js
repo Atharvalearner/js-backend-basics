@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send(`'Hello port ${port} is listening.... please give some command'`)
+  res.send(`Hello port ${port} is listening.... `)
 })
 
 app.get('/instagram',(req,res) => {
